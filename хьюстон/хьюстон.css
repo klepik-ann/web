@@ -1,0 +1,37 @@
+body { 
+    width: 70%;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1{
+    font-size: 32px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, tr, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+figcaption {
+    font-family: cursive;
+    font-size: 13px;
+}
+
+figure{
+    float: right;
+    margin: 3em;
+}
+

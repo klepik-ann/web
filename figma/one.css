@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 8vh;
+    background-color: #007765;
+    background-size: 100%;
+    color: white;
+    font-weight: 100;
+    padding-left: 55px;
+    padding-right: 55px;
+    width: 100%;
+    position: fixed;
+
+    
+}
+
+.hat1-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 100;
+    width: 1219px;
+    margin: auto;
+}
+.logo{
+    height: 20px;
+    width: 20px;
+    padding-top: 2vh;
+}
+.hat{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.hat2{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px; 
+}
+
+.block2{
+    background-image: url(img/block.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 100px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 40px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.card{
+    text-align: start;
+    font-weight: 100;
+    width: 1219px;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.title-card{
+    color: #007765;
+    font-size: 40px;
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+.text-card{
+    font-size: 20px;
+    margin: 0;
+    padding: 0 0 15px;
+    line-height: 1;
+}
+
+ .blue{
+    background-image: url(img/b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-left: 55px;
+    padding-right: 55px;
+
+ }
+
+ .blue-text{
+    margin: auto;
+    text-align: center;
+    font-weight: 100;
+    width: 1219px;
+    font-size: 40px;
+    color:white;
+    padding: 170px;
+ }
+
+ .coin{
+     width: 150px;
+     height: 150px;
+     float: left;
+     margin: 0 30px 30px 0; 
+ }
+
+
+
+
+
+ .team{
+    background-color: #dee2e4;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-align: center;
+
+
+ }
+
+ .team1 {
+    width: 1219px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .photo{
+     height: 170px;
+     width: 170px;
+ }
+
+ .name{
+    color: #007765;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+ }
+
+ .job{
+     font-family: cursive;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0 20px 20px;
+ }
+ .tem-content{    
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+ }
+ 
+
+ .footer{
+    background-color: #333333;
+ }
+ .footer-text{
+    color: white;
+    text-align: center;
+    width: 540px;
+    padding: 10px 55px 20px 55px;
+    margin: auto;
+    font-weight: 100;
+    font-size: 15px;
+
+ }
+    
+ 

@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before, *::after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+/*------------------------*/
+body{
+    padding: 30px;
+background-image: url(img/1-1.png); 
+ 
+
+}
+.block{
+height: 300px;
+background-color: royalblue;
+border-radius: 10px;
+box-shadow: 0 0 10px 2px #000;
+/* Old browsers */
+background: rgb(236,232,157);
+/* FF3.6-15 */
+background: -moz-linear-gradient(top, rgba(236,232,157,1) 0%, rgba(94,83,115,1) 50%, rgba(24,181,164,1) 100%);
+/* Chrome10-25,Safari5.1-6 */
+background: -webkit-linear-gradient(top, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: linear-gradient(to bottom, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+margin: 10px;
+}
+
+.block2{
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+box-shadow: 0 0 10px 2px #000;
+    /* Old browsers */
+background: rgb(236,232,157);
+/* FF3.6-15 */
+background: -moz-radial-gradient(center, ellipse cover, rgba(236,232,157,1) 0%, rgba(94,83,115,1) 50%, rgba(24,181,164,1) 100%);
+/* Chrome10-25,Safari5.1-6 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: radial-gradient(ellipse at center, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+}
+ .block3{
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+box-shadow: 0 0 10px 2px #000;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+
+ }
+ .block4{
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+box-shadow: 0 0 10px 2px #000;
+background-image: url(img/1-2.png);  
+background-attachment: fixed;
+background-size: cover;
+ }
+

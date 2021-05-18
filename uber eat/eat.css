@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 956px;
+    margin: 0px auto;
+}
+
+.header{box-shadow: 0px 3px 16px rgba(38, 38, 38, 0.16); position: relative;}
+.hat{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 72px;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.hat-1{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: Georgia, serif;
+}  
+.uber{font-weight: 600;}
+.eat{color: #3CB371; padding: 0 5px 0;}
+.shop{ width: 17.7px; height: 24px; margin-left: 15px;}
+
+
+
+
+
+
+
+
+
+
+.background{background: #F2F2F2; padding: 0px;}
+.reserch{
+    margin-top: 80px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    color: rgb(169, 169, 169);
+    font-weight: 100;
+}
+
+.restaurant{
+    padding-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.picture{
+    width: 385px;
+    height: 320px;
+    margin: 2em 0 0 0;
+}
+
+.call{font-weight: 500;}
+
+.name{color:rgb(169, 169, 169); font-family: serif;}
+
+
+.footer{
+    background: #262626; 
+    height: 8vh;
+margin-top: 60px;
+}
+
+.uber-white{
+    color: white;
+    font-weight: 500;
+}
+
+
+.footer-1{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: Georgia, serif;
+    padding: 30px 0 0 0;
+}  

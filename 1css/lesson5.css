@@ -1,0 +1,6 @@
+.block>p{
+    color: blue;
+}
+.block{
+    border: 1px solid rgb(180, 17, 17);
+}

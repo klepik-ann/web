@@ -1,0 +1,27 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.shop{
+    width: 21.33px;
+    height: 28.8px;
+}
+
+
+
+
+.picture1-1{
+    width: 317.94px;
+    height: 256px; 
+    margin-top: 3em;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}

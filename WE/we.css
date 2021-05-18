@@ -1,0 +1,26 @@
+body{
+    margin: auto;
+    background-color: #FFA07A;
+    font-family: Georgia, Bookman, Arial Narrow, sans-serif;
+}
+
+
+header{
+color: #79584b;
+padding: 50px 0 10px;
+font-size: 50px;
+text-align: center;
+margin: auto;
+}
+
+.history{
+    background-image: url(img/history.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: ;
+    text-align: center;
+
+
+    
+    
+}
