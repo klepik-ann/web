@@ -34,3 +34,348 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 /*---------*/
+body{
+    font-family: "Roboto";
+}
+.wrapper {position: relative;}
+
+.header {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    height: 72px;
+    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+.container{
+    max-width: 956px;
+    margin: 0px auto;
+}
+.header__row {
+
+}
+.header__body {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {padding: 30px 0 0 0;
+}
+.header__item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header__sign-in {padding: 0 27px 0 0;
+}
+.header__basket {
+}
+.content {
+}
+.search {
+    margin: 128px 0 56px 0;
+}
+.search__row {
+}
+.search__body {
+    color: #626262;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+}
+.search__body input{
+    font-size: 16px;
+    width: 100%;
+    opacity: 0.5;
+    line-height: 20px;
+}
+.search__form {
+    
+}
+.cards {
+}
+.cards__row {
+}
+.cards__body {
+}
+.cards__title {
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+color: #1D1D1D;
+}
+.cards__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0 100px 0;
+}
+.cards__section {
+    display: flex;
+    flex: 0 1 33.333%;/*запрещаю колонке увел позволяю уменьшаться и делаю размер 33.3333%*/
+}
+.cards__section:hover {
+    opacity: 0.4; 
+}
+
+.cards__section__image {
+    padding: 20px 0 0 0;
+    width: 317px;
+    height: 256px;
+}
+.cards__name {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D1D1D;
+    padding: 16px 0 4px 0;
+}
+.cards__type {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+.cards__time {
+    font-weight: 400;
+    font-size: 13px;
+    color: #1D1D1D;
+}
+.footer {
+    background-color: #262626;
+}
+.title {
+}
+.title__row {
+}
+.title__body {
+}
+.title__logo {
+    padding: 56px 0 56px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+}
+.title__logo__image {
+    width: 200px;
+}
+.info__item {
+    padding: 0 0 59px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+}
+.info__body {
+    margin: 32px 0 0 0;
+}
+.info__about{
+    padding: 33px 0 22px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+.h{
+    color: #49A144;
+}
+.uber{
+color: #FFFFFF;
+}
+select{
+
+}
+.info__leng {
+    
+}
+
+.info__leng.select {
+    
+}
+.info__social {
+}
+.info-image {
+    padding:0 10px 0 0;
+}
+
+
+.info__items{
+    margin: 39px 0 0 0;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.info__item-1:last-child{
+    padding: 0;
+}
+
+.info__item-1{
+padding: 0 0 23px 0;
+}
+
+.app__items{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 39.87px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+    
+}
+.app {
+}
+.app_apple {
+    padding: 0 20.6px 0 0;
+}
+.app__google {
+    padding: 0 0 0 20.6px;
+}
+.fall {
+}
+.fall__row {
+}
+.fall__body {
+}
+.fall__text {
+    font-weight: 400;
+    font-size: 11px;
+    color: #FFFFFF;
+    padding: 40px 0 40px 0;
+}
+
+/*EAT2*/
+
+.hi{
+    margin: 72px 0 0 0;
+    background: url(img/title.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 364px;
+
+}
+.hi__card{
+    background-color:#FFFFFF;
+    width: 389px;
+    height: 204px;
+    margin: 80px 0 80px 0;
+}
+.hi__title{
+    font-weight: 400;
+    font-size: 36px;
+    color: #1D1D1D;
+    padding: 38px 0 54px 38px;
+
+}
+.hi__title__item{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 29px 0 38px;
+    text-align: center;
+}
+.hi__name{
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    padding: 8px 0 0 0;
+}
+.hi__time{
+    font-weight: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #262626;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+.menu{
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+.menu__body{
+    font-size: 16px;
+    color: #626262;
+    padding: 32px 0 29px 0;
+}
+.menu__body span{
+    padding: 0 40px 0 0;
+}
+.menu__body span:first-child{
+    color: #327430;
+}
+.dishes__title{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+    padding: 56px 0 32px 0;
+}
+.dishes__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0 100px 0;
+}
+.dishes__items{
+    padding: 16px 0 16px 16px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: 0 0 49px 0;
+
+}
+
+.dishes__name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+.dishes__type{
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+    margin: 0 0 -21px 0;
+}
+.dishes__price{
+font-weight: 600;
+font-size: 15px;
+line-height: 21px;
+color: #1D1D1D;
+padding: 83px 0 0 0;
+}
+.first{
+    background-image:url(img/21.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 170px 160px;
+    background-position: right;
+}
+.second{
+    background-image:url(img/22.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 170px 160px;
+    background-position: right;
+}
+.third{
+    background-image:url(img/23.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 170px 160px;
+    background-position: right;
+}
+.fours{
+    background-image:url(img/24.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 170px 160px;
+    background-position: right;
+}
+.five{
+    background-image:url(img/25.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 170px 160px;
+    background-position: right;
+}
+.six{
+    background-image:url(img/26.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 170px 160px;
+    background-position: right;
+}
+.dishes__items:hover{
+    background-color: rgba(117, 117, 117, 0.2);
+}
